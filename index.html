@@ -8,6 +8,7 @@
     <script src="scripts.js"></script>
     <link rel="stylesheet" href="style.css">
     <title>Крестики-Нолики</title>
+    <script type="text/javascript" src="scripts.js"></script>
 </head>
 <body>
     <div id="main">
@@ -17,22 +18,21 @@
         </div>
         <div id="GamePlace">
             <div id="firstline">
-                <div id="f1" class="button" onclick="MovePlayer()"></div>
-                <div id="f2" class="button" onclick="MovePlayer()"></div>
-                <div id="f3" class="button" onclick="MovePlayer()"></div>
+                <button id="f1" onclick="MovePlayer('f1')" value=" "></button>
+                <button id="f2" onclick="MovePlayer('f2')" value=" "></button>
+                <button id="f3" onclick="MovePlayer('f3')" value=" "></button>
             </div>
             <div id="secondline">
-                <div id="s1" class="button" onclick="MovePlayer()"></div>
-                <div id="s2" class="button" onclick="MovePlayer()"></div>
-                <div id="s3" class="button" onclick="MovePlayer()"></div>
+                <button id="s1" onclick="MovePlayer('s1')" value=" "></button>
+                <button id="s2" onclick="MovePlayer('s2')" value=" "></button>
+                <button id="s3" onclick="MovePlayer('s3')" value=" "></button>
             </div>
             <div id="thirdline">
-                <div id="t1" class="button" onclick="MovePlayer()"></div>
-                <div id="t2" class="button" onclick="MovePlayer()"></div>
-                <div id="t3" class="button" onclick="MovePlayer()"></div>
+                <button id="t1" onclick="MovePlayer('t1')" value=" "></button>
+                <button id="t2" onclick="MovePlayer('t2')" value=" "></button>
+                <button id="t3" onclick="MovePlayer('t3')" value=" "></button>
             </div>
         </div>
     </div>
-    <script src="scripts.js"></script>
 </body>
 </html>
