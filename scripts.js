@@ -132,3 +132,4 @@ function MovePlayer (_id) { // функция принимающая id кноп
         alert("Game over");
     }
 }
+ 
