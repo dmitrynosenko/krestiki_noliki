@@ -8,15 +8,18 @@
     <script src="scripts.js"></script>
     <link rel="stylesheet" href="style.css">
     <title>Крестики-Нолики</title>
-    <script type="text/javascript" src="scripts.js"></script>
+    <script src="scripts.js"></script>
 </head>
 <body>
     <div id="main">
         <div id="playersStol">
             <div id="P1">Player 1</div>
-            <div id="P2">Player 2</div>
+            <div id="P2">Player 2 <button onclick="location.reload()">Обновить</button></div>
+            </div>
         </div>
+
         <div id="GamePlace">
+
             <div id="firstline">
                 <button id="f1" onclick="MovePlayer('f1')" value=" "></button>
                 <button id="f2" onclick="MovePlayer('f2')" value=" "></button>
@@ -34,5 +37,7 @@
             </div>
         </div>
     </div>
+
+
 </body>
 </html>
